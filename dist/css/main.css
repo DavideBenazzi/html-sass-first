@@ -1,20 +1,30 @@
 body {
   background-color: #000;
+  text-align: center;
 }
 
 body h1 {
   color: #fff;
+  margin-top: 30px;
 }
 
 body h2 {
   color: orange;
+  margin-top: 30px;
 }
 
 body h3 {
   color: dodgerblue;
+  margin-top: 30px;
 }
 
 body p {
   color: gold;
+  margin-top: 30px;
+}
+
+body p .green {
+  color: green;
+  background-color: #fff;
 }
 

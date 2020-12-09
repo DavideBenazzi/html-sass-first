@@ -1,21 +1,35 @@
+// VARIABLES
 $primary-color: #fff;
 $secondary-color: orange;
 $tertiary-color: dodgerblue;
 $backg-color: #000;
 $paragraph-color: gold; 
+$textCenter: center;
+$mgTop: 30px;
+$green: green;
 
+// GENERAL
 body {
     background-color: $backg-color;
+    text-align: $textCenter;
     h1 {
         color: $primary-color;
+        margin-top: $mgTop;
     }
     h2 {
         color: $secondary-color;
+        margin-top: $mgTop;
     }
     h3 {
         color: $tertiary-color;
+        margin-top: $mgTop;
     }
     p {
         color: $paragraph-color;
+        margin-top: $mgTop;
+        .green {
+            color: $green;
+            background-color: $primary-color;
+        }
     }
 }
