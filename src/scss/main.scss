@@ -1,0 +1,21 @@
+$primary-color: #fff;
+$secondary-color: orange;
+$tertiary-color: dodgerblue;
+$backg-color: #000;
+$paragraph-color: gold; 
+
+body {
+    background-color: $backg-color;
+    h1 {
+        color: $primary-color;
+    }
+    h2 {
+        color: $secondary-color;
+    }
+    h3 {
+        color: $tertiary-color;
+    }
+    p {
+        color: $paragraph-color;
+    }
+}
